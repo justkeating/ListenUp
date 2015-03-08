@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Add Song</title>
+		<link rel="icon" type="image/ico" href="http://hosting.csumb.edu/keatingkennyl/CST336/img/icon2.png">
+		<style>
+			#wrapper {
+				margin: auto;
+				position: fixed;
+				top: 100px;
+				right: 30px;
+				bottom:30px;
+				left:30px;
+			}
+			th {
+				text-align: center;
+			}
+			td {
+				text-align: right;
+				padding: 1px;
+			}
+			h2{
+				margin-bottom: 0; padding-bottom: 0;
+			}
+			body{
+				background-image: url(img/headphones2.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				color:white;
+				font-size:20px;
+				font-family: 'Georgia', Times New Roman, Times, serif	
+			}
+			#submit{
+				background:white;
+				color:#000;
+				border: 1px solid white;
+				border-radius: 10px;
+				font-size:20px;
+				cursor: pointer;
+			}
+			#submit:hover{
+				background:#000 ;
+				color:white ;
+				border: 1px solid white;
+				border-radius: 10px;
+				font-size:20px;
+				cursor: pointer;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div id="wrapper" align="center">
+			<h2>Add Song</h2><br/>
+			<form method='post' action="add.php">
+				<table>
+					<tr>
+						<td>Title:</td>
+						<td>
+						<input type="text" name="Title"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Artist:</td>
+						<td>
+						<input type="text" name="Artist"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Album:</td>
+						<td>
+						<input type="text" name="Album"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Category:</td>
+						<td>
+						<input type="text" name="Category"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan ="2">
+						<input type="submit" id="submit"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
