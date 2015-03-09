@@ -1,0 +1,18 @@
+body {
+	opacity: 0.9;
+	background-image: url(../img/headphones2.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	color: #000;
+	font-family: 'Georgia', Times New Roman, Times, serif
+}
+#title{
+    font-family: fantasy;
+    background-color: #fff;
+	font-size: 26px;
+	text-align: center;
+    border: 2px solid black;
+	background-color: #B2CDF7;
+	border-radius: 10px;
+    padding:10px;
+}
